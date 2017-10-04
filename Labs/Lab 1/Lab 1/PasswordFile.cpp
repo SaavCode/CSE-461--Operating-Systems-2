@@ -65,7 +65,6 @@ bool PasswordFile::checkpw(string user, string password) {
 }
 
 void PasswordFile::synch() {//write to file
-	
 		ofstream outfile;
 		//open file
 		outfile.open(filename.c_str());
